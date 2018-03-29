@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- item_for_recycler_view_adapter -->
+    <style name="one_line_for_app_compat">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">20sp</item>
+        <item name="autoSizeMinTextSize">12sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>
