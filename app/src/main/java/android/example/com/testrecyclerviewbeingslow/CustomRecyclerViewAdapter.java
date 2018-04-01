@@ -20,7 +20,8 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter{
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         Context context = parent.getContext();
-        int layoutRes = R.layout.item_for_recycler_view_adapter;
+        //int layoutRes = R.layout.item_for_recycler_view_adapter;
+        int layoutRes = R.layout.item_no_constraint_layout_at_all;
         LayoutInflater inflater = LayoutInflater.from(context);
 
         View view = inflater.inflate(layoutRes, parent, false);
